@@ -9,6 +9,6 @@ class EventsController < ApplicationController
     @event = Event.where(
       :creator_id => params[:user_id],
       :id => params[:id]
-    )
+    ).first
   end
 end

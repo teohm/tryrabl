@@ -33,4 +33,5 @@ group :development, :test do
 #   gem 'webrat'
   gem 'faker'
   gem 'factory_girl_rails'
+  gem 'rails-erd'
 end
