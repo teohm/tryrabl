@@ -1,0 +1,1 @@
+attributes :id, :username, :email, :display_name
